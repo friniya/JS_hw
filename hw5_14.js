@@ -9,5 +9,5 @@ var a = 4;
 var b = 3;
 var res = pow(a, b);
 
-pow();
+pow(a,b);
 console.log(res);
