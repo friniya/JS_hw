@@ -8,7 +8,7 @@ function pad(str, sign, a, b) {
         case true:
             return sign.repeat(b - str.length)+str;
         case false:
-            return str.padEnd(b, sign);
+            return str + sign.repeat(b - str.length);
     }
 }
 
