@@ -12,7 +12,7 @@ let shelter = {
     },
     getInfo (){
         for (const key in this){
-            if (key !== "getInfo" && this[key] !== '' && this[key] !== NaN && this[key] !== undefined && this[key] !== null){console.log(key ,':', this[key])}
+            if (key !== "getInfo" && this[key] !== '' && this[key] !== NaN && this[key] !== undefined && this[key] !== null){console.log(key ,':', this[key])}//Условие if (key !== "getInfo") исключает метод getInfo из вывода. так же не выводит другие перечисленные
         }
     }
 }
